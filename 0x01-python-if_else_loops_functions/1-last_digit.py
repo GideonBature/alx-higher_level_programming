@@ -2,6 +2,8 @@
 import random
 number = random.randint(-10000, 10000)
 str = "Last digit of"
+if number == 0:
+    print(f"{str} {number:d} is {number:d} and is 0")
 if number < 0:
     number = -number
     last_number = -(number % 10)
