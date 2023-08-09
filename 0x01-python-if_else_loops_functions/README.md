@@ -52,7 +52,6 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 Requirements
 ------------
-
 ### Python Scripts
 
 *   Allowed editors: `vi`, `vim`, `emacs`
@@ -63,7 +62,7 @@ Requirements
 *   Your code should use the pycodestyle (version `2.8.*`)
 *   All your files must be executable
 *   The length of your files will be tested using `wc`
-
+---
 ### C Scripts
 
 *   Allowed editors: `vi`, `vim`, `emacs`
@@ -85,7 +84,7 @@ _Note_: you do not need to understand lists yet.
 ### Quiz questions
 
 **Great!** You've completed the quiz successfully! Keep going!
-
+---
 #### Question #0
 
 What do these lines print?
@@ -100,7 +99,7 @@ What do these lines print?
     
 *   School
     
-
+---
 #### Question #1
 
 What do these lines print?
@@ -121,7 +120,7 @@ What do these lines print?
     
 *   C is fun
     
-
+---
 #### Question #2
 
 What do these lines print?
@@ -138,7 +137,7 @@ What do these lines print?
     
 *   2 3
     
-
+---
 #### Question #3
 
 What do these lines print?
@@ -155,7 +154,7 @@ What do these lines print?
     
 *   2 3 4 5 6 7 8 9
     
-
+---
 #### Question #4
 
 What do these lines print?
@@ -170,7 +169,7 @@ What do these lines print?
     
 *   School
     
-
+---
 #### Question #5
 
 What do these lines print?
@@ -190,7 +189,7 @@ What do these lines print?
     
 *   C is fun
     
-
+---
 #### Question #6
 
 What do these lines print?
@@ -205,7 +204,7 @@ What do these lines print?
     
 *   School
     
-
+---
 #### Question #7
 
 What do these lines print?
@@ -222,7 +221,7 @@ What do these lines print?
     
 *   1 2 3
     
-
+---
 #### Question #8
 
 What do these lines print?
@@ -239,6 +238,7 @@ What do these lines print?
     
 
 Tasks
+
 -----
 
 ### 0\. Positive anything is better than negative nothing
@@ -283,6 +283,8 @@ This program will assign a random signed number to the variable `number` each ti
 *   GitHub repository: `alx-higher_level_programming`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `0-positive_or_negative.py`
+
+---
 
 ### 1\. The last digit
 
@@ -333,6 +335,7 @@ This program will assign a random signed number to the variable `number` each ti
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `1-last_digit.py`
 
+---
 
 ### 2\. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 
@@ -355,6 +358,7 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `2-print_alphabet.py`
 
+---
 
 ### 3\. When I was having that alphabet soup, I never thought that it would pay off
 
@@ -378,6 +382,7 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `3-print_alphabt.py`
 
+---
 
 ### 4\. Hexadecimal printing
 
@@ -423,6 +428,7 @@ Write a program that prints all numbers from `0` to `98` in decimal and in hexad
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `4-print_hexa.py`
 
+---
 
 ### 5\. 00...99
 
@@ -447,6 +453,7 @@ Write a program that prints numbers from `0` to `99`.
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `5-print_comb2.py`
 
+---
 
 ### 6\. Inventing is a combination of brains and materials. The more brains you use, the less material you need
 
@@ -475,6 +482,7 @@ Write a program that prints all possible different combinations of two digits.
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `6-print_comb3.py`
 
+---
 
 ### 7\. islower
 
@@ -515,6 +523,7 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `7-islower.py`
 
+---
 
 ### 8\. To uppercase
 
@@ -549,6 +558,7 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `8-uppercase.py`
 
+---
 
 ### 9\. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
 
@@ -581,6 +591,7 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `9-print_last_digit.py`
 
+---
 
 ### 10\. a + b
 
@@ -613,6 +624,7 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `10-add.py`
 
+---
 
 ### 11\. a ^ b
 
@@ -651,6 +663,7 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `11-pow.py`
 
+---
 
 ### 12\. Fizz Buzz
 
@@ -684,7 +697,7 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `12-fizzbuzz.py`
 
-
+---
 
 ### 13\. Insert in sorted linked list
 
@@ -871,7 +884,7 @@ Write a function in C that inserts a number into a sorted singly linked list.
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `13-insert_number.c, lists.h`
 
-
+---
 
 ### 14\. Smile in the mirror
 
@@ -894,7 +907,7 @@ Write a program that prints the ASCII alphabet, in reverse order, alternating lo
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `100-print_tebahpla.py`
 
-
+---
 
 ### 15\. Remove at position
 
@@ -932,6 +945,8 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `101-remove_char_at.py`
 
+
+---
 
 ### 16\. ByteCode -> Python #2
 
