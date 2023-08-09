@@ -9,3 +9,4 @@ def uppercase(str):
             pass
         char = chr(num_char)
         print("{}".format(char), end="")
+    print()
