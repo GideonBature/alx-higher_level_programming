@@ -988,6 +988,6 @@ Write the Python function `def magic_calculation(a, b, c):` that does exactly th
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `102-magic_calculation.py`
 
-
+---
 
 Copyright © 2023 ALX, All rights reserved.
