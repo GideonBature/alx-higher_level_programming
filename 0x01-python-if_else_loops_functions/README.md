@@ -8,12 +8,12 @@ Resources
 
 **Read or watch**:
 
-*   [More Control Flow Tools](/rltoken/jpjs5EnZTpBLLEremJYjPQ "More Control Flow Tools") (_Read until “4.6. Defining Functions” included_)
-*   [IndentationError](/rltoken/F9n2AE-fpEPzt2PfBMGYAQ "IndentationError")
-*   [How To Use String Formatters in Python 3](/rltoken/ZdtRIAkFu8dMBT99DcFBNg "How To Use String Formatters in Python 3")
-*   [Learn to Program](/rltoken/ElQgZYNHrLI7kV_ysEB1hQ "Learn to Program")
-*   [Learn to Program 2 : Looping](/rltoken/ElQgZYNHrLI7kV_ysEB1hQ "Learn to Program 2 : Looping")
-*   [Pycodestyle – Style Guide for Python Code](/rltoken/TuTTnEg_Rwn8U1g3PEsZmA "Pycodestyle -- Style Guide for Python Code")
+*   [More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html) (_Read until “4.6. Defining Functions” included_)
+*   [IndentationError](https://www.youtube.com/watch?v=1QXOd2ZQs-Q)
+*   [How To Use String Formatters in Python 3](https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3)
+*   [Learn to Program](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
+*   [Learn to Program 2 : Looping](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
+*   [Pycodestyle – Style Guide for Python Code](https://pypi.org/project/pycodestyle/)
 
 **man or help**:
 
@@ -22,7 +22,7 @@ Resources
 Learning Objectives
 -------------------
 
-At the end of this project, you are expected to be able to [explain to anyone](/rltoken/SdBJUMTPS5VW3cQNkhaeSg "explain to anyone"), **without the help of Google**:
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google**:
 
 ### General
 
@@ -69,7 +69,7 @@ Requirements
 *   Allowed editors: `vi`, `vim`, `emacs`
 *   All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 *   All your files should end with a new line
-*   Your code should use the `Betty` style. It will be checked using [betty-style.pl](https://github.com/alx-tools/Betty/blob/master/betty-style.pl "betty-style.pl") and [betty-doc.pl](https://github.com/alx-tools/Betty/blob/master/betty-doc.pl "betty-doc.pl")
+*   Your code should use the `Betty` style. It will be checked using [betty-style.pl](https://github.com/alx-tools/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/alx-tools/Betty/blob/master/betty-doc.pl)
 *   You are not allowed to use global variables
 *   No more than 5 functions per file
 *   In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own `main.c` files at compilation. Our `main.c` files might be different from the one shown in the examples
@@ -247,7 +247,7 @@ mandatory
 
 This program will assign a random signed number to the variable `number` each time it is executed. Complete the source code in order to print whether the number stored in the variable `number` is positive or negative.
 
-*   You can find the source code [here](/rltoken/e4tR3cjFHqhelf4y485-zQ "here")
+*   You can find the source code [here](https://github.com/alx-tools/0x01.py/blob/master/0-positive_or_negative_py)
 *   The variable `number` will store a different value every time you will run this program
 *   You don’t have to understand what `import`, `random. randint` do. Please do not touch this code
 *   The output of the program should be:
@@ -290,7 +290,7 @@ mandatory
 
 This program will assign a random signed number to the variable `number` each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable `number`.
 
-*   You can find the source code [here](/rltoken/Vku0ZPFeDPuXUKD8nZ4mOQ "here")
+*   You can find the source code [here](https://github.com/alx-tools/0x01.py/blob/master/1-last_digit_py)
 *   The variable `number` will store a different value every time you will run this program
 *   You don’t have to understand what `import`, `random.randint` do. **Please do not touch this code**. This line should not change: `number = random.randint(-10000, 10000)`
 *   The output of the program should be:
@@ -486,7 +486,7 @@ Write a function that checks for lowercase character.
 *   Returns `False` otherwise
 *   You are not allowed to import any module
 *   You are not allowed to use `str.upper()` and `str.isupper()`
-*   [Tips: ord()](/rltoken/WglAv9ep-gg2wwo49DYfKg "Tips: ord()")
+*   [Tips: ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
 
 You don’t need to understand `__import__`
 ```
@@ -526,7 +526,7 @@ Write a function that prints a string in uppercase followed by a new line.
 *   You can only use one loop in your code
 *   You are not allowed to import any module
 *   You are not allowed to use `str.upper()` and `str.isupper()`
-*   [Tips: ord()](/rltoken/WglAv9ep-gg2wwo49DYfKg "Tips: ord()")
+*   [Tips: ord()](https://docs.python.org/3.4/library/functions.html?highlight=ord#ord)
 
 You don’t need to understand `__import__`
 ```
