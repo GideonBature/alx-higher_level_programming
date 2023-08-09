@@ -965,7 +965,7 @@ Write the Python function `def magic_calculation(a, b, c):` that does exactly th
                  47 RETURN_VALUE
     
 
-[tips - ByteCode](/rltoken/BO9a7nq6424lGmtmwyB4cQ "tips - ByteCode")
+[Tips - ByteCode](https://docs.python.org/3.4/library/dis.html)
 
 **Repo:**
 
