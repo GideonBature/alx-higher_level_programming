@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+def uppercase(str):
+    """ prints a string in uppercase """
+    for s in str:
+        num_char = ord(s)
+        if num_char >= 97 and num_char <= 123:
+            num_char -= 32
+            char = chr(num_char)
+            print("{}".format
