@@ -7,6 +7,4 @@ def uppercase(str):
             num_char -= 32
         elif num_char >= 65 and num_char <= 90 or num_char == 32:
             pass
-        char = chr(num_char)
         print("{}".format(char), end="")
-    print()
