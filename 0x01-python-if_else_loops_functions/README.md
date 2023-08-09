@@ -1,179 +1,3 @@
-      window.dataLayer = window.dataLayer || \[\]; dataLayer.push({"userId":295751,"visitorType":"student","batch":{"id":92,"fullNameWithC":"LOS-0423 (C#15)","schoolLocation":{"id":3,"name":"Lagos"}},"curriculum":{"id":1,"name":"SE Foundations"}}); window.gtm\_user\_custom\_event = function (name, options) { if (typeof name === 'undefined') { return; } window.dataLayer.push({ customEventOptions: typeof options !== 'undefined' ? options : {}, event: name, }); } (function(w,d,s,l,i){w\[l\]=w\[l\]||\[\];w\[l\].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)\[0\], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-N4C8MF2'); Project: 0x01. Python - if/else, loops, functions | Lagos Intranet          Cookies.set('timezone', (new Date()).getTimezoneOffset() / -60.0);  
-
-Toggle navigation[
-
-](/)
-
-*   [
-    
-    My Planning
-    
-    ](/planning/me)
-*   [
-    
-    Projects
-    
-    ](/projects/current)
-*   [
-    
-    QA Reviews I can make
-    
-    ](/corrections/to_review)
-*   [
-    
-    Evaluation quizzes
-    
-    ](/dashboards/my_current_evaluation_quizzes)
-
-* * *
-
-*   [
-    
-    Curriculums
-    
-    ](/dashboards/my_curriculums)
-*   [
-    
-    Concepts
-    
-    ](/concepts)
-*   [
-    
-    Conference rooms
-    
-    ](/dashboards/video_rooms)
-*   [
-    
-    Servers
-    
-    ](/servers)
-*   [
-    
-    Sandboxes
-    
-    ](/user_containers/current)
-*   [
-    
-    Video on demand
-    
-    ](/dashboards/videos)
-
-* * *
-
-*   [
-    
-    Peers
-    
-    ](/users/peers)
-*   [
-    
-    Captain's Logs
-    
-    ](/dashboards/my_captain_log)
-
-* * *
-
-*   [
-    
-    Slack
-    
-    ](https://alx-students.slack.com)
-    
-    [
-    
-    My Profile
-    
-    ](/users/my_profile)
-    
-
-[
-
-](/)
-
-*   [
-    
-    My Planning
-    
-    ](/planning/me)
-*   [
-    
-    Projects
-    
-    ](/projects/current)
-*   [
-    
-    QA Reviews I can make
-    
-    ](/corrections/to_review)
-*   [
-    
-    Evaluation quizzes
-    
-    ](/dashboards/my_current_evaluation_quizzes)
-
-* * *
-
-*   [
-    
-    Curriculums
-    
-    ](/dashboards/my_curriculums)
-*   [
-    
-    Concepts
-    
-    ](/concepts)
-*   [
-    
-    Conference rooms
-    
-    ](/dashboards/video_rooms)
-*   [
-    
-    Servers
-    
-    ](/servers)
-*   [
-    
-    Sandboxes
-    
-    ](/user_containers/current)
-*   [
-    
-    Video on demand
-    
-    ](/dashboards/videos)
-
-* * *
-
-*   [
-    
-    Peers
-    
-    ](/users/peers)
-*   [
-    
-    Captain's Logs
-    
-    ](/dashboards/my_captain_log)
-
-* * *
-
-*   [
-    
-    Slack
-    
-    ](https://alx-students.slack.com)
-    
-    [
-    
-    My Profile
-    
-    ](/users/my_profile)
-    
-
-You just released the advanced tasks of this project. Have fun!
-
 0x01. Python - if/else, loops, functions
 ========================================
 
@@ -432,7 +256,7 @@ This program will assign a random signed number to the variable `number` each ti
         *   if the number is 0: `is zero`
         *   if the number is less than 0: `is negative`
     *   followed by a new line
-
+```
     guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py 
     -4 is negative
     guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py 
@@ -452,47 +276,13 @@ This program will assign a random signed number to the variable `number` each ti
     guillaume@ubuntu:~/0x01$ ./0-positive_or_negative.py 
     5 is positive
     guillaume@ubuntu:~/0x01$ 
-    
+```
 
 **Repo:**
 
 *   GitHub repository: `alx-higher_level_programming`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `0-positive_or_negative.py`
-
-Done?! Help
-
-×
-
-#### Learners who are done with "0. Positive anything is better than negative nothing"
-
-Check your code
-
-×
-
-#### Correction of "0. Positive anything is better than negative nothing"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 1\. The last digit
 
@@ -511,7 +301,7 @@ This program will assign a random signed number to the variable `number` each ti
         *   if the last digit is 0: the string `and is 0`
         *   if the last digit is less than 6 and not 0: the string `and is less than 6 and not 0`
     *   followed by a new line
-
+```
     guillaume@ubuntu:~/0x01$ ./1-last_digit.py
     Last digit of 4205 is 5 and is less than 6 and not 0
     guillaume@ubuntu:~/0x01$ ./1-last_digit.py
@@ -535,7 +325,7 @@ This program will assign a random signed number to the variable `number` each ti
     guillaume@ubuntu:~/0x01$ ./1-last_digit.py
     Last digit of 5169 is 9 and is greater than 5
     guillaume@ubuntu:~/0x01$ 
-    
+```
 
 **Repo:**
 
@@ -543,39 +333,6 @@ This program will assign a random signed number to the variable `number` each ti
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `1-last_digit.py`
 
-Done?! Help
-
-×
-
-#### Learners who are done with "1. The last digit"
-
-Check your code
-
-×
-
-#### Correction of "1. The last digit"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 2\. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 
@@ -587,10 +344,10 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 *   You can only use one loop in your code
 *   You are not allowed to store characters in a variable
 *   You are not allowed to import any module
-
+```
     guillaume@ubuntu:~/0x01$ ./2-print_alphabet.py
     abcdefghijklmnopqrstuvwxyzguillaume@ubuntu:~/0x01$
-    
+```
 
 **Repo:**
 
@@ -598,39 +355,6 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `2-print_alphabet.py`
 
-Done?! Help
-
-×
-
-#### Learners who are done with "2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game"
-
-Check your code
-
-×
-
-#### Correction of "2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 3\. When I was having that alphabet soup, I never thought that it would pay off
 
@@ -643,10 +367,10 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 *   You can only use one loop in your code
 *   You are not allowed to store characters in a variable
 *   You are not allowed to import any module
-
+``````
     guillaume@ubuntu:~/0x01$ ./3-print_alphabt.py
     abcdfghijklmnoprstuvwxyzguillaume@ubuntu:~/0x01$
-    
+``````    
 
 **Repo:**
 
@@ -654,39 +378,6 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `3-print_alphabt.py`
 
-Done?! Help
-
-×
-
-#### Learners who are done with "3. When I was having that alphabet soup, I never thought that it would pay off"
-
-Check your code
-
-×
-
-#### Correction of "3. When I was having that alphabet soup, I never thought that it would pay off"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 4\. Hexadecimal printing
 
@@ -698,7 +389,7 @@ Write a program that prints all numbers from `0` to `98` in decimal and in hexad
 *   You can only use one loop in your code
 *   You are not allowed to store numbers or strings in a variable
 *   You are not allowed to import any module
-
+```
     guillaume@ubuntu:~/0x01$ ./4-print_hexa.py
     0 = 0x0
     1 = 0x1
@@ -724,7 +415,7 @@ Write a program that prints all numbers from `0` to `98` in decimal and in hexad
     97 = 0x61
     98 = 0x62
     guillaume@ubuntu:~/0x01$
-    
+```   
 
 **Repo:**
 
@@ -732,43 +423,8 @@ Write a program that prints all numbers from `0` to `98` in decimal and in hexad
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `4-print_hexa.py`
 
-Done?! Help
-
-×
-
-#### Learners who are done with "4. Hexadecimal printing"
-
-Check your code
-
-×
-
-#### Correction of "4. Hexadecimal printing"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 5\. 00...99
-
-mandatory
 
 Write a program that prints numbers from `0` to `99`.
 
@@ -779,11 +435,11 @@ Write a program that prints numbers from `0` to `99`.
 *   You can only use one loop in your code
 *   You are not allowed to store numbers or strings in a variable
 *   You are not allowed to import any module
-
+```
     guillaume@ubuntu:~/0x01$ ./5-print_comb2.py
     00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99
     guillaume@ubuntu:~/0x01$ 
-    
+```    
 
 **Repo:**
 
@@ -791,43 +447,9 @@ Write a program that prints numbers from `0` to `99`.
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `5-print_comb2.py`
 
-Done?! Help
-
-×
-
-#### Learners who are done with "5. 00...99"
-
-Check your code
-
-×
-
-#### Correction of "5. 00...99"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 6\. Inventing is a combination of brains and materials. The more brains you use, the less material you need
 
-mandatory
 
 Write a program that prints all possible different combinations of two digits.
 
@@ -841,11 +463,11 @@ Write a program that prints all possible different combinations of two digits.
 *   You can only use no more than 2 loops in your code
 *   You are not allowed to store numbers or strings in a variable
 *   You are not allowed to import any module
-
+```
     guillaume@ubuntu:~/0x01$ ./6-print_comb3.py
     01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
     guillaume@ubuntu:~/0x01$ 
-    
+```    
 
 **Repo:**
 
@@ -853,43 +475,9 @@ Write a program that prints all possible different combinations of two digits.
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `6-print_comb3.py`
 
-Done?! Help
-
-×
-
-#### Learners who are done with "6. Inventing is a combination of brains and materials. The more brains you use, the less material you need"
-
-Check your code
-
-×
-
-#### Correction of "6. Inventing is a combination of brains and materials. The more brains you use, the less material you need"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 7\. islower
 
-mandatory
 
 Write a function that checks for lowercase character.
 
@@ -901,7 +489,7 @@ Write a function that checks for lowercase character.
 *   [Tips: ord()](/rltoken/WglAv9ep-gg2wwo49DYfKg "Tips: ord()")
 
 You don’t need to understand `__import__`
-
+```
     guillaume@ubuntu:~/0x01$ cat 7-main.py
     #!/usr/bin/env python3
     islower = __import__('7-islower').islower
@@ -919,7 +507,7 @@ You don’t need to understand `__import__`
     3 is upper
     g is lower
     guillaume@ubuntu:~/0x01$ 
-    
+```    
 
 **Repo:**
 
@@ -927,43 +515,9 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `7-islower.py`
 
-Done?! Help
-
-×
-
-#### Learners who are done with "7. islower"
-
-Check your code
-
-×
-
-#### Correction of "7. islower"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 8\. To uppercase
 
-mandatory
 
 Write a function that prints a string in uppercase followed by a new line.
 
@@ -975,7 +529,7 @@ Write a function that prints a string in uppercase followed by a new line.
 *   [Tips: ord()](/rltoken/WglAv9ep-gg2wwo49DYfKg "Tips: ord()")
 
 You don’t need to understand `__import__`
-
+```
     guillaume@ubuntu:~/0x01$ cat 8-main.py
     #!/usr/bin/env python3
     uppercase = __import__('8-uppercase').uppercase
@@ -987,7 +541,7 @@ You don’t need to understand `__import__`
     BEST
     BEST SCHOOL 98 BATTERY STREET
     guillaume@ubuntu:~/0x01$ 
-    
+```    
 
 **Repo:**
 
@@ -995,43 +549,9 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `8-uppercase.py`
 
-Done?! Help
-
-×
-
-#### Learners who are done with "8. To uppercase"
-
-Check your code
-
-×
-
-#### Correction of "8. To uppercase"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 9\. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
 
-mandatory
 
 Write a function that prints the last digit of a number.
 
@@ -1040,7 +560,7 @@ Write a function that prints the last digit of a number.
 *   You are not allowed to import any module
 
 You don’t need to understand `__import__`
-
+```
     guillaume@ubuntu:~/0x01$ cat 9-main.py
     #!/usr/bin/env python3
     print_last_digit = __import__('9-print_last_digit').print_last_digit
@@ -1053,7 +573,7 @@ You don’t need to understand `__import__`
     guillaume@ubuntu:~/0x01$ ./9-main.py
     8044
     guillaume@ubuntu:~/0x01$ 
-    
+```    
 
 **Repo:**
 
@@ -1061,43 +581,8 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `9-print_last_digit.py`
 
-Done?! Help
-
-×
-
-#### Learners who are done with "9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important"
-
-Check your code
-
-×
-
-#### Correction of "9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 10\. a + b
-
-mandatory
 
 Write a function that adds two integers and returns the result.
 
@@ -1106,7 +591,7 @@ Write a function that adds two integers and returns the result.
 *   You are not allowed to import any module
 
 You don’t need to understand `__import__`
-
+```
     guillaume@ubuntu:~/0x01$ cat 10-main.py
     #!/usr/bin/env python3
     add = __import__('10-add').add
@@ -1120,7 +605,7 @@ You don’t need to understand `__import__`
     98
     98
     guillaume@ubuntu:~/0x01$ 
-    
+```    
 
 **Repo:**
 
@@ -1128,39 +613,6 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `10-add.py`
 
-Done?! Help
-
-×
-
-#### Learners who are done with "10. a + b"
-
-Check your code
-
-×
-
-#### Correction of "10. a + b"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 11\. a ^ b
 
@@ -1173,7 +625,7 @@ Write a function that computes `a` to the power of `b` and return the value.
 *   You are not allowed to import any module
 
 You don’t need to understand `__import__`
-
+```
     guillaume@ubuntu:~/0x01$ cat 11-main.py
     #!/usr/bin/env python3
     pow = __import__('11-pow').pow
@@ -1191,7 +643,7 @@ You don’t need to understand `__import__`
     0.0001
     -1024
     guillaume@ubuntu:~/0x01$ 
-    
+```    
 
 **Repo:**
 
@@ -1199,39 +651,6 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `11-pow.py`
 
-Done?! Help
-
-×
-
-#### Learners who are done with "11. a ^ b"
-
-Check your code
-
-×
-
-#### Correction of "11. a ^ b"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 12\. Fizz Buzz
 
@@ -1246,7 +665,7 @@ Write a function that prints the numbers from 1 to 100 separated by a space.
 *   You are not allowed to import any module
 
 You don’t need to understand `__import__`
-
+```
     guillaume@ubuntu:~/0x01$ cat 12-main.py
     #!/usr/bin/env python3
     fizzbuzz = __import__('12-fizzbuzz').fizzbuzz
@@ -1257,7 +676,7 @@ You don’t need to understand `__import__`
     guillaume@ubuntu:~/0x01$ ./12-main.py | cat -e
     1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz Buzz 41 Fizz 43 44 FizzBuzz 46 47 Fizz 49 Buzz Fizz 52 53 Fizz Buzz 56 Fizz 58 59 FizzBuzz 61 62 Fizz 64 Buzz Fizz 67 68 Fizz Buzz 71 Fizz 73 74 FizzBuzz 76 77 Fizz 79 Buzz Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz Buzz $
     guillaume@ubuntu:~/0x01$ 
-    
+```    
 
 **Repo:**
 
@@ -1265,39 +684,7 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `12-fizzbuzz.py`
 
-Done?! Help
 
-×
-
-#### Learners who are done with "12. Fizz Buzz"
-
-Check your code
-
-×
-
-#### Correction of "12. Fizz Buzz"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 13\. Insert in sorted linked list
 
@@ -1312,7 +699,7 @@ Write a function in C that inserts a number into a sorted singly linked list.
 
 *   Prototype: `listint_t *insert_node(listint_t **head, int number);`
 *   Return: the address of the new node, or `NULL` if it failed
-
+```
     carrie@ubuntu:0x01$ cat lists.h 
     #ifndef LISTS_H
     #define LISTS_H
@@ -1338,8 +725,8 @@ Write a function in C that inserts a number into a sorted singly linked list.
     listint_t *insert_node(listint_t **head, int number);
     
     #endif /* LISTS_H */
-    
-
+```    
+```
     carrie@ubuntu:0x01$ cat linked_lists.c 
     #include <stdio.h>
     #include <stdlib.h>
@@ -1415,8 +802,8 @@ Write a function in C that inserts a number into a sorted singly linked list.
             free(current);
         }
     }
-    
-
+```    
+```
     carrie@ubuntu:0x01$ cat 13-main.c 
     #include <stdlib.h>
     #include <string.h>
@@ -1453,8 +840,8 @@ Write a function in C that inserts a number into a sorted singly linked list.
     
         return (0);
     }
-    
-
+```    
+```
     carrie@ubuntu:0x01$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 13-main.c linked_lists.c 13-insert_number.c -o insert
     carrie@ubuntu:0x01$ ./insert
     0
@@ -1476,7 +863,7 @@ Write a function in C that inserts a number into a sorted singly linked list.
     402
     1024
     carrie@ubuntu:0x01$  
-    
+```    
 
 **Repo:**
 
@@ -1484,39 +871,7 @@ Write a function in C that inserts a number into a sorted singly linked list.
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `13-insert_number.c, lists.h`
 
-Done?! Help
 
-×
-
-#### Learners who are done with "13. Insert in sorted linked list"
-
-Check your code
-
-×
-
-#### Correction of "13. Insert in sorted linked list"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 14\. Smile in the mirror
 
@@ -1528,10 +883,10 @@ Write a program that prints the ASCII alphabet, in reverse order, alternating lo
 *   You can only use one loop in your code
 *   You are not allowed to store characters in a variable
 *   You are not allowed to import any module
-
+```
     guillaume@ubuntu:~/0x01$ ./100-print_tebahpla.py
     zYxWvUtSrQpOnMlKjIhGfEdCbAguillaume@ubuntu:~/0x01$
-    
+```    
 
 **Repo:**
 
@@ -1539,39 +894,7 @@ Write a program that prints the ASCII alphabet, in reverse order, alternating lo
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `100-print_tebahpla.py`
 
-Done?! Help
 
-×
-
-#### Learners who are done with "14. Smile in the mirror"
-
-Check your code
-
-×
-
-#### Correction of "14. Smile in the mirror"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 15\. Remove at position
 
@@ -1609,39 +932,6 @@ You don’t need to understand `__import__`
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `101-remove_char_at.py`
 
-Done?! Help
-
-×
-
-#### Learners who are done with "15. Remove at position"
-
-Check your code
-
-×
-
-#### Correction of "15. Remove at position"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 16\. ByteCode -> Python #2
 
@@ -1683,111 +973,6 @@ Write the Python function `def magic_calculation(a, b, c):` that does exactly th
 *   Directory: `0x01-python-if_else_loops_functions`
 *   File: `102-magic_calculation.py`
 
-Done?! Help
 
-×
-
-#### Learners who are done with "16. ByteCode -> Python #2"
-
-Check your code
-
-×
-
-#### Correction of "16. ByteCode -> Python #2"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
-
-×
-
-#### Recommended Sandboxes
 
 Copyright © 2023 ALX, All rights reserved.
-
-×
-
-#### Markdown Guide
-
-#### Emphasis
-
-\*\***bold**\*\*
-\*_italics_\*
-~~strikethrough~~
-
-#### Headers
-
-\# Big header
-## Medium header
-### Small header
-#### Tiny header
-
-#### Lists
-
-\* Generic list item
-\* Generic list item
-\* Generic list item
-
-1. Numbered list item
-2. Numbered list item
-3. Numbered list item
-
-#### Links
-
-\[Text to display\](http://www.example.com)
-
-#### Quotes
-
-\> This is a quote.
-> It can span multiple lines!
-
-#### Images
-
-CSS style available: `width, height, opacity`
-
-!\[\](http://www.example.com/image.jpg)
-!\[\](http://www.example.com/image.jpg | width: 200px)
-!\[\](http://www.example.com/image.jpg | height: 124px | width: 80px | opacity: 0.6)
-
-#### Tables
-
-| Column 1 | Column 2 | Column 3 |
-| -------- | -------- | -------- |
-| John     | Doe      | Male     |
-| Mary     | Smith    | Female   |
-
-_Or without aligning the columns..._
-
-| Column 1 | Column 2 | Column 3 |
-| -------- | -------- | -------- |
-| John | Doe | Male |
-| Mary | Smith | Female |
-
-#### Displaying code
-
-\`var example = "hello!";\`
-
-_Or spanning multiple lines..._
-
-\`\`\`
-var example = "hello!";
-alert(example);
-\`\`\`
