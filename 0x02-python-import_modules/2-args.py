@@ -4,7 +4,10 @@ def print_argv():
     argc = len(sys.argv)
     if argc <= 1:
         print("{:d} arguments.".format(argc - 1))
-    elif argc > 1:
+    elif argc == 2:
+        print("{:d} argument:".format(argc - 1))
+        print("{:d}: {}".format(argc - 1, sys.argv[1]))
+    elif argc > 2:
         print("{:d} arguments:".format(argc - 1))
         for i in range(1, argc):
             print("{:d}: {}".format(i, sys.argv[i]))
