@@ -5,7 +5,7 @@ import hidden_4
 def print_names():
     names = dir(hidden_4)
     for name in sorted(names):
-        if not name.startwith("__"):
+        if not name.startswith("__"):
             print(name)
 
 
