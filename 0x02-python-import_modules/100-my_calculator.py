@@ -12,14 +12,14 @@ def calc():
         a = int(sys.argv[1])
         op = sys.argv[2]
         b = int(sys.argv[3])
-        if op == "+":
+        if op == '+':
             print("{:d} {} {:d} = {:d}".format(a, op, b, add(a, b)))
-        elif op == "-":
+        elif op == '-':
             print("{:d} {} {:d} = {:d}".format(a, op, b, sub(a, b)))
-        elif op == "*":
+        elif op == '*':
             print("{:d} {} {:d} = {:d}".format(a, op, b, mul(a, b)))
-        elif op == "/":
-            print("{:d} {} {:d} = {:d}".format(num1, op, num2, div(a, b)))
+        elif op == '/':
+            print("{:d} {} {:d} = {:d}".format(a, op, b, div(a, b)))
         else:
             print("Unknown operator. Available operators: +, -, * and /")
             exit(1)
