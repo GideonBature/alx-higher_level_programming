@@ -4,4 +4,4 @@ __name__ == "__main__"
 a = 1
 b = 2
 res = add(a, b)
-print(f"{a:d} + {b:d} = {res:d}")
+print("{:d} + {:d} = {:d}".format(a, b, res))
