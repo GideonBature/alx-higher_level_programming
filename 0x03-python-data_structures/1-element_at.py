@@ -4,8 +4,9 @@ def element_at(my_list, idx):
     len_list = len(my_list)
     if idx < 0:
         return None
-    if idx > len_list:
+    elif idx > len_list - 1:
         return None
-    for num in my_list:
-        if idx == num:
-            return my_list[idx]
+    else:
+        for num in my_list:
+            if idx == num:
+                return my_list[idx]
