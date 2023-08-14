@@ -3,4 +3,5 @@ def print_list_integer(my_list=[]):
     """prints all integers of a list"""
     for num in my_list:
         f_str = "{}"
-        print(f_str.format(my_list[i]))
+        result = f_str.format(my_list[num - 1])
+        print(result)
