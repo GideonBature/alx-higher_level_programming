@@ -8,5 +8,5 @@ def element_at(my_list, idx):
         return None
     else:
         for num in my_list:
-            if idx == num:
+            if idx == num - 1:
                 return my_list[idx]
