@@ -6,5 +6,3 @@ def print_list_integer(my_list=[]):
         f_str = "{}"
         result = f_str.format(my_list[i])
         print(result)
-
-
