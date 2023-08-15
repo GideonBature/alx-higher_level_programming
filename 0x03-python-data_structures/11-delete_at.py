@@ -8,6 +8,6 @@ def delete_at(my_list=[], idx=0):
     if idx > list_len - 1:
         return my_list
     for item in my_list:
-        if idx == item:
+        if idx == item - 1:
             del my_list[idx]
             return my_list
