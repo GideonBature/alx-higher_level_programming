@@ -12,9 +12,5 @@ class Square:
 
     Methods:
         None
-
-    Example:
-        To create an instance of the Square class:
-        >>> square = Square()
     """
     pass
