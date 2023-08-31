@@ -4,6 +4,7 @@ Never forget a test
 Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not. Testing is executing a system in order to identify any gaps, errors, or missing requirements contrary to the actual requirements. This tutorial will give you a basic understanding of software testing, its types, methods, levels, and other related terminologies.
 
 **Code that is not tested can’t be trusted**
+
 ---
 ### Bad reputation
 
@@ -46,6 +47,7 @@ There are five steps that are involved while testing an application for function
 *   The comparison of actual and expected results based on the executed test cases.
 
 An effective testing practice will see the above steps applied to the testing policies of every organization and hence it will make sure that the organization maintains the strictest of standards when it comes to software quality.
+
 ---
 ### Unit Testing
 
@@ -66,6 +68,7 @@ Integration testing is defined as the testing of combined parts of an applicatio
 *   **Top-down integration**: In this testing, the highest-level modules are tested first and progressively, lower-level modules are tested thereafter.
 
 In a comprehensive software development environment, bottom-up testing is usually done first, followed by top-down testing. The process concludes with multiple tests of the complete application, preferably in scenarios designed to mimic actual situations.
+
 ---
 ### System Testing
 
@@ -97,6 +100,7 @@ This is arguably the most important type of testing, as it is conducted by the Q
 More ideas will be shared about the application and more tests can be performed on it to gauge its accuracy and the reasons why the project was initiated. Acceptance tests are not only intended to point out simple spelling mistakes, cosmetic errors, or interface gaps, but also to point out any bugs in the application that will result in system crashes or major errors in the application.
 
 By performing acceptance tests on an application, the testing team will deduce how the application will perform in production. There are also legal and contractual requirements for acceptance of the system.
+
 ---
 ### Alpha Testing
 
@@ -122,6 +126,7 @@ This test is performed after alpha testing has been successfully performed. In b
 This section is based upon testing an application from its non-functional attributes. Non-functional testing involves testing a software from the requirements which are nonfunctional in nature but important such as performance, security, user interface, etc.
 
 Some of the important and commonly used non-functional testing types are discussed below.
+
 ---
 #### Performance Testing
 
@@ -141,6 +146,7 @@ Performance testing is considered as one of the important and mandatory testing 
 *   Scalability
 
 Performance testing can be either qualitative or quantitative and can be divided into different sub-types such as Load testing and Stress testing.
+
 ---
 #### Load Testing
 
@@ -149,6 +155,7 @@ It is a process of testing the behavior of a software by applying maximum load i
 Most of the time, load testing is performed with the help of automated tools such as Load Runner, AppLoader, IBM Rational Performance Tester, Apache JMeter, Silk Performer, Visual Studio Load Test, etc.
 
 Virtual users (VUsers) are defined in the automated testing tool and the script is executed to verify the load testing for the software. The number of users can be increased or decreased concurrently or incrementally based upon the requirements.
+
 ---
 #### Stress Testing
 
@@ -159,6 +166,7 @@ The aim of stress testing is to test the software by applying the load to the sy
 *   Shutdown or restart of network ports randomly
 *   Turning the database on or off
 *   Running different processes that consume resources such as CPU, memory, server, etc.
+
 ---
 ### Usability Testing
 
@@ -171,12 +179,14 @@ Nigel Bevan and Macleod considered that usability is the quality requirement tha
 Molich in 2000 stated that a user-friendly system should fulfill the following five goals, i.e., easy to Learn, easy to remember, efficient to use, satisfactory to use, and easy to understand.
 
 In addition to the different definitions of usability, there are some standards and quality models and methods that define usability in the form of attributes and sub-attributes such as ISO-9126, ISO-9241-11, ISO-13407, and IEEE std.610.12, etc.
+
 ---
 #### UI vs Usability Testing
 
 UI testing involves testing the Graphical User Interface of the Software. UI testing ensures that the GUI functions according to the requirements and tested in terms of color, alignment, size, and other properties.
 
 On the other hand, usability testing ensures a good and user-friendly GUI that can be easily handled. UI testing can be considered as a sub-part of usability testing.
+
 ---
 ### Security Testing
 
@@ -198,6 +208,7 @@ Security testing involves testing a software in order to identify any flaws and 
 *   Cross-site scripting attacks
 *   Buffer overflows vulnerabilities
 *   Directory traversal attacks
+
 ---
 ### Portability Testing
 
@@ -212,6 +223,7 @@ Portability testing can be considered as one of the sub-parts of system testing,
 *   Unit testing has been performed on the associated components.
 *   Integration testing has been performed.
 *   Test environment has been established.
+
 ---
 ### Test Plan
 
@@ -228,12 +240,14 @@ A test plan includes the following:
 *   The resources allocated for testing the application
 *   Any risks involved during the testing process
 *   A schedule of tasks and milestones to be achieved
+
 ---
 ### Test Scenario
 
 It is a one line statement that notifies what area in the application will be tested. Test scenarios are used to ensure that all process flows are tested from end to end. A particular area of an application can have as little as one test scenario to a few hundred scenarios depending on the magnitude and complexity of the application.
 
 The terms ‘test scenario’ and ‘test cases’ are used interchangeably, however a test scenario has several steps, whereas a test case has a single step. Viewed from this perspective, test scenarios are test cases, but they include several test cases and the sequence that they should be executed. Apart from this, each test is dependent on the output from the previous test.
+
 ---
 ### Test Case
 
