@@ -223,7 +223,7 @@ Write a function that adds 2 integers.
 *   `a` and `b` must be first casted to integers if they are float
 *   Returns an integer: the addition of `a` and `b`
 *   You are not allowed to import any module
-    ```    
+```    
     guillaume@ubuntu:~/0x07$ cat 0-main.py
     #!/usr/bin/python3
     add_integer = __import__('0-add_integer').add_integer
@@ -256,7 +256,7 @@ Write a function that adds 2 integers.
     guillaume@ubuntu:~/0x07$ python3 -c 'print(__import__("0-add_integer").add_integer.__doc__)' | wc -l
     3
     guillaume@ubuntu:~/0x07$ 
-    ```
+```
 
 **Repo:**
 
@@ -280,7 +280,7 @@ Write a function that divides all elements of a matrix.
 *   All elements of the matrix should be divided by `div`, rounded to 2 decimal places
 *   Returns a new matrix
 *   You are not allowed to import any module
-    ```
+```
     guillaume@ubuntu:~/0x07$ cat 2-main.py
     #!/usr/bin/python3
     matrix_divided = __import__('2-matrix_divided').matrix_divided
@@ -299,7 +299,7 @@ Write a function that divides all elements of a matrix.
     5 passed and 0 failed.
     Test passed.
     guillaume@ubuntu:~/0x07$ 
-    ```
+```
 
 Note: you might have a different number of tests than in the above example. As usual, your tests should cover all possible cases.
 
@@ -320,7 +320,7 @@ Write a function that prints `My name is <first name> <last name>`
 *   Prototype: `def say_my_name(first_name, last_name=""):`
 *   `first_name` and `last_name` must be strings otherwise, raise a `TypeError` exception with the message `first_name must be a string` or `last_name must be a string`
 *   You are not allowed to import any module
-    ```
+```
     guillaume@ubuntu:~/0x07$ cat 3-main.py
     #!/usr/bin/python3
     say_my_name = __import__('3-say_my_name').say_my_name
@@ -342,7 +342,7 @@ Write a function that prints `My name is <first name> <last name>`
     5 passed and 0 failed.
     Test passed.
     guillaume@ubuntu:~/0x07$ 
-    ```
+```
 
 Note: you might have a different number of tests than in the above example. As usual, your tests should cover all possible cases.
 
@@ -366,7 +366,7 @@ Write a function that prints a square with the character `#`.
 *   if `size` is less than `0`, raise a `ValueError` exception with the message `size must be >= 0`
 *   if `size` is a float and is less than 0, raise a `TypeError` exception with the message `size must be an integer`
 *   You are not allowed to import any module
-    ```
+```
     guillaume@ubuntu:~/0x07$ cat 4-main.py
     #!/usr/bin/python3
     print_square = __import__('4-print_square').print_square
@@ -409,7 +409,7 @@ Write a function that prints a square with the character `#`.
     
     guillaume@ubuntu:~/0x07$ python3 -m doctest -v ./tests/4-print_square.txt
     guillaume@ubuntu:~/0x07$ 
-    ```
+```
 
 **Repo:**
 
@@ -428,7 +428,7 @@ Write a function that prints a text with 2 new lines after each of these charact
 *   `text` must be a string, otherwise raise a `TypeError` exception with the message `text must be a string`
 *   There should be no space at the beginning or at the end of each printed line
 *   You are not allowed to import any module
-    ```
+```
     guillaume@ubuntu:~/0x07$ cat 5-main.py
     #!/usr/bin/python3
     text_indentation = __import__('5-text_indentation').text_indentation
@@ -473,7 +473,7 @@ Write a function that prints a text with 2 new lines after each of these charact
     Utinam quidem dicerent alium alio beatiorem! Iam ruinas videresguillaume@ubuntu:~/0x07$
     guillaume@ubuntu:~/0x07$ python3 -m doctest -v ./tests/5-text_indentation.txt
     guillaume@ubuntu:~/0x07$ 
-    ```
+```
 
 **Repo:**
 
@@ -497,7 +497,7 @@ In this task, you will write unittests for the function `def max_integer(list=[]
 *   Your test file should be executed by using this command: `python3 -m unittest tests.6-max_integer_test`
 *   All tests you make must be passable by the function below
 *   We strongly encourage you to work together on test cases, so that you don’t miss any edge case
-    ```
+```
     guillaume@ubuntu:~/0x07$ cat 6-max_integer.py
     #!/usr/bin/python3
     """Module to find the max integer in a list
@@ -542,7 +542,7 @@ In this task, you will write unittests for the function `def max_integer(list=[]
     
     class TestMaxInteger(unittest.TestCase):
     guillaume@ubuntu:~/0x07$ 
-    ```
+```
 
 **Repo:**
 
@@ -575,7 +575,7 @@ Write a function that multiplies 2 matrices:
     
 *   You are not allowed to import any module
     
-    ```
+```
     guillaume@ubuntu:~/0x07$ cat 100-main.py
     #!/usr/bin/python3
     matrix_mul = __import__('100-matrix_mul').matrix_mul
@@ -590,7 +590,7 @@ Write a function that multiplies 2 matrices:
     6 passed and 0 failed.
     Test passed.
     guillaume@ubuntu:~/0x07$ 
-    ```
+```
 
 **Repo:**
 
@@ -610,7 +610,7 @@ To install it: `pip3 install numpy==1.15.0`
 
 *   Prototype: `def lazy_matrix_mul(m_a, m_b):`
 *   Test cases should be the same as `100-matrix_mul` but with new exception type/message
-    ```
+```
     guillaume@ubuntu:~/0x07$ cat 101-main.py
     #!/usr/bin/python3
     lazy_matrix_mul = __import__('101-lazy_matrix_mul').lazy_matrix_mul
@@ -624,7 +624,7 @@ To install it: `pip3 install numpy==1.15.0`
     [[13 16]]
     guillaume@ubuntu:~/0x07$ python3 -m doctest -v ./tests/101-lazy_matrix_mul.txt 
     guillaume@ubuntu:~/0x07$ 
-    ```
+```
 
 **Repo:**
 
@@ -652,7 +652,7 @@ About:
 *   Python version: 3.4
 *   You are allowed to use the C standard library
 *   Your shared library will be compiled with this command line: `gcc -shared -Wl,-soname,libPython.so -o libPython.so -fPIC -I/usr/include/python3.4 102-python.c`
-    ```
+```
     julien@ubuntu:~/0x07. Pyhton Strings$ cat 102-tests.py
     import ctypes
     
@@ -701,7 +701,7 @@ About:
     [.] string object info
       [ERROR] Invalid String Object
     julien@ubuntu:~/0x07. Pyhton Strings$ 
-    ```
+```
 
 **Repo:**
 
