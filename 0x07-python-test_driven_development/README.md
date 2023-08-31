@@ -5,7 +5,7 @@
 
 _For this project, we expect you to look at this concept:_
 
-*   [Never forget a test](/concepts/47)
+*   [Never forget a test](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x07-python-test_driven_development/concepts)
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/246/giphy-4.gif)
 
