@@ -152,6 +152,8 @@ Is this module correctly commented?
 #### Tips:
 
 Docstring must be before import statements
+
+
 ---
 #### Question #4
 
@@ -208,7 +210,7 @@ Is this a standardized way to comment a function in Python?
     
 *   No
     
-
+-----
 Tasks
 -----
 
