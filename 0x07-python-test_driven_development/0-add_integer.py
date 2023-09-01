@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-
 """add function"""
 
 def add_integer(a, b=98):
     """Add two integers
+
+    Floats are typecasted to int
 
     Args:
         param1 (int/float): The first parameter
@@ -24,4 +25,3 @@ def add_integer(a, b=98):
         b = int(b)
 
     return a + b;
-

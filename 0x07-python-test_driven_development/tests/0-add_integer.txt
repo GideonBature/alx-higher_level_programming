@@ -1,3 +1,4 @@
+>>> add_integer = __import__('0-add_integer').add_integer
 >>> add_integer(1, 2)
 3
 >>> add_integer(1, -2)
@@ -133,16 +134,6 @@ TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
 0
 >>> add_integer(0, 0)
 0
->>> add_integer(-)   
-  File "<stdin>", line 1
-    add_integer(-)
-                 ^
-SyntaxError: invalid syntax
->>> add_integer(+)
-  File "<stdin>", line 1
-    add_integer(+)
-                 ^
-SyntaxError: invalid syntax
 >>> add_integer(5+3)
 106
 >>> add_integer(5-3)
@@ -151,13 +142,3 @@ SyntaxError: invalid syntax
 113
 >>> add_integer(5*3,)
 113
->>> add_integer(,5*3) 
-  File "<stdin>", line 1
-    add_integer(,5*3)
-                ^
-SyntaxError: invalid syntax
->>> add_integer(5*)  
-  File "<stdin>", line 1
-    add_integer(5*)
-                  ^
-SyntaxError: invalid syntax
