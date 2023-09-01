@@ -1,0 +1,163 @@
+>>> add_integer(1, 2)
+3
+>>> add_integer(1, -2)
+-1
+>>> add_integer(-21, 6) 
+-15
+>>> add_integer(-21, -6)
+-27
+>>> add_integer(6)      
+104
+>>> add_integer(-6)
+92
+>>> add_integer(-6.3, -8.52)
+-14
+>>> add_integer(6.3, 8.52)  
+14
+>>> add_integer(6.3, -8.52)
+-2
+>>> add_integer(-6.3, 8.52)
+2
+>>> add_integer(8.52)      
+106
+>>> add_integer(-8.52)
+90
+>>> add_integer(5, 8.52)
+13
+>>> add_integer(5.65, 8)   
+13
+>>> add_integer(5, -8.25)
+-3
+>>> add_integer(-8.25, 8)
+0
+>>> add_integer(-8, 7.6) 
+-1
+>>> add_integer(15.2, -7) 
+8
+>>> add_integer(None)    
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 3, in add_integer
+TypeError: a must be an integer
+>>> add_integer(None, None)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 3, in add_integer
+TypeError: a must be an integer
+>>> add_integer(None, None, None)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
+>>> add_integer('5')             
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 3, in add_integer
+TypeError: a must be an integer
+>>> add_integer('5', '9')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 3, in add_integer
+TypeError: a must be an integer
+>>> add_integer()        
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: add_integer() missing 1 required positional argument: 'a'
+>>> add_integer(' ')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 3, in add_integer
+TypeError: a must be an integer
+>>> add_integer('2', '6', '8')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
+>>> add_integer(2, '6')       
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 5, in add_integer
+TypeError: b must be an integer
+>>> add_integer(-2, '6')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 5, in add_integer
+TypeError: b must be an integer
+>>> add_integer(2.25, '6')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 5, in add_integer
+TypeError: b must be an integer
+>>> add_integer(-2.25, '6')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 5, in add_integer
+TypeError: b must be an integer
+>>> add_integer('9', 6)    
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 3, in add_integer
+TypeError: a must be an integer
+>>> add_integer('9', -6)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 3, in add_integer
+TypeError: a must be an integer
+>>> add_integer('9', 6.56)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 3, in add_integer
+TypeError: a must be an integer
+>>> add_integer('9', -6.56)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 3, in add_integer
+TypeError: a must be an integer
+>>> add_integer(8, 5, 7)   
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
+>>> add_integer(8.25, 5.4, 7.3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
+>>> add_integer(-8, -5, -7)    
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
+>>> add_integer(-8.25, -5.4, -7.3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
+>>> add_integer(0)                
+98
+>>> add_integer(0, 0)
+0
+>>> add_integer(0, 0)
+0
+>>> add_integer(-)   
+  File "<stdin>", line 1
+    add_integer(-)
+                 ^
+SyntaxError: invalid syntax
+>>> add_integer(+)
+  File "<stdin>", line 1
+    add_integer(+)
+                 ^
+SyntaxError: invalid syntax
+>>> add_integer(5+3)
+106
+>>> add_integer(5-3)
+100
+>>> add_integer(5*3) 
+113
+>>> add_integer(5*3,)
+113
+>>> add_integer(,5*3) 
+  File "<stdin>", line 1
+    add_integer(,5*3)
+                ^
+SyntaxError: invalid syntax
+>>> add_integer(5*)  
+  File "<stdin>", line 1
+    add_integer(5*)
+                  ^
+SyntaxError: invalid syntax
