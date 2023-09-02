@@ -8,8 +8,8 @@ def add_integer(a, b=98):
     Floats are typecasted to int
 
     Args:
-        param1 (int/float): The first parameter
-        param2 (int): The second parameter
+        a (int/float): The first parameter
+        b (int): The second parameter
 
     Returns:
         int: The return value

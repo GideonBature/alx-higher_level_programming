@@ -6,8 +6,8 @@ def matrix_divided(matrix, div):
     """Divides all elements of a matrix
 
     Args:
-        param1: matrix(int/float)
-        param2: div(int)
+        matrix: (int/float) first parameter
+        div: (int) second parameter
 
     Returns:
             list of lists (int/float)
