@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """add function"""
 
+
 def add_integer(a, b=98):
     """Add two integers
 
@@ -24,4 +25,4 @@ def add_integer(a, b=98):
     if type(b) == float:
         b = int(b)
 
-    return a + b;
+    return a + b

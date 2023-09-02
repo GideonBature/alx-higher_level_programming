@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Matrix Divider"""
 
+
 def matrix_divided(matrix, div):
     """Divides all elements of a matrix
 
@@ -13,7 +14,8 @@ def matrix_divided(matrix, div):
     """
     for sub_list in matrix:
         if not all(isinstance(elem, (int, float)) for elem in sub_list):
-            raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+            msg = "matrix must be a matrix (list of lists) of integers/floats"
+            raise TypeError(msg)
 
     first_list_len = len(matrix[0])
 
@@ -26,6 +28,6 @@ def matrix_divided(matrix, div):
     if div == 0:
         raise ZeroDivisionError("division by zero")
 
-    matrix_divided = [[round(float(x / div), 2) for x in row] for row in matrix]
+    matrix_d = [[round(float(x / div), 2) for x in row] for row in matrix]
 
-    return matrix_divided
+    return matrix_d
