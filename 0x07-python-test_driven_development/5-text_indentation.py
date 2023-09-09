@@ -28,7 +28,7 @@ def text_indentation(text):
                 end = ch_idx + 1
 
         tokens.append(text[start:end].strip())
-        start = end + 1
+        start = end
 
     for idx in range(len(tokens)):
         if idx < len(tokens) - 1:
