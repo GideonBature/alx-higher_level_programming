@@ -2,9 +2,10 @@
 """a class MyList that inherits from list
 """
 
+
 class MyList(list):
     """class that inherits from list
-    
+
     Args:
         list - argument
     """
