@@ -21,3 +21,5 @@
 ### 0x08. [Python - More Classes and Objects](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x08-python-more_classes)
 
 ### 0x09. [Python - Everything is object](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x09-python-everything_is_object)
+
+### 0x0A. [Python - Inheritance](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x0A-python-inheritance)
