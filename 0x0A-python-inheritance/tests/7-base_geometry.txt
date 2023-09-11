@@ -43,4 +43,66 @@
 ...     print("[{}] {}".format(e.__class__.__name__, e))
 ... 
 [TypeError] height must be an integer
+>>> try:                                                
+...     bg.integer_validator(25, 40)                    
+... except Exception as e:                              
+...     print("[{}] {}".format(e.__class__.__name__, e))
+... 
+>>> try:                                                
+...     bg.integer_validator("height", "40")            
+... except Exception as e:                              
+...     print("[{}] {}".format(e.__class__.__name__, e))
+... 
+[TypeError] height must be an integer
+>>> try:                                                
+...     bg.integer_validator("height")                  
+... except Exception as e:                              
+...     print("[{}] {}".format(e.__class__.__name__, e))
+... 
+[TypeError] BaseGeometry.integer_validator() missing 1 required positional argument: 'value'
+>>> try:                                                
+...     bg.integer_validator("height", )                
+... except Exception as e:                              
+...     print("[{}] {}".format(e.__class__.__name__, e))
+... 
+[TypeError] BaseGeometry.integer_validator() missing 1 required positional argument: 'value'
+>>> try:                                                
+...     bg.integer_validator("", 50)                    
+... except Exception as e:                              
+...     print("[{}] {}".format(e.__class__.__name__, e))
+... 
+>>> try:                                                
+...     bg.integer_validator("python", "")              
+... except Exception as e:                              
+...     print("[{}] {}".format(e.__class__.__name__, e))
+... 
+[TypeError] python must be an integer
+>>> try:                                                
+...     bg.integer_validator("python", inf)             
+... except Exception as e:                              
+...     print("[{}] {}".format(e.__class__.__name__, e))
+... 
+[NameError] name 'inf' is not defined
+>>> try:                                                
+...     bg.integer_validator("python", 12.36)           
+... except Exception as e:                              
+...     print("[{}] {}".format(e.__class__.__name__, e))
+... 
+[TypeError] python must be an integer
+>>> try:                                                
+...     bg.integer_validator("python", int(12.36))      
+... except Exception as e:                              
+...     print("[{}] {}".format(e.__class__.__name__, e))
+... 
+>>> try:                                                
+...     bg.integer_validator(None, 12)                  
+... except Exception as e:                              
+...     print("[{}] {}".format(e.__class__.__name__, e))
+...                                                     
+>>> try:                                                
+...     bg.integer_validator(None, str(12))             
+... except Exception as e:                              
+...     print("[{}] {}".format(e.__class__.__name__, e))
+... 
+[TypeError] None must be an integer
 >>> 
