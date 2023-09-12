@@ -20,7 +20,7 @@ class Rectangle(BaseGeometry):
     """A rectangle - child of BaseGeometry
     """
     def __init__(self, width, height):
-        """Initialize a new triangle
+        """Initialize a new Rectangle
 
         Args:
             width (int): width of rectangle
