@@ -20,29 +20,44 @@ class Rectangle(BaseGeometry):
     """A rectangle - child of BaseGeometry
     """
     def __init__(self, width, height):
-        """Initialize a new triangle
+        """Initialize a new Rectangle
 
         Args:
             width (int): width of rectangle
             height (int): height of rectangle
         """
-        self.__width = self.integer_validator("width", width)
-        self.__height = self.integer_validator("height", height)
+        self.integer_validator("width", width)
+        self.__width = width
+        self.integer_validator("height", height)
+        self.__height = height
 
-        def area(self):
-            """Returns area of rectangle
-            """
-            return self.__width * self.__height
+    def area(self):
+        """Returns area of rectangle
+        """
+        return self.__width * self.__height
 
-        def __str__(self):
-            """Returns print() and str() representation of
-            a rectangle
-            """
-            string = f"[Rectangle] {self.__width}/{self.__height}"
-            return string
+    def __str__(self):
+        """Returns print() and str() representation of
+        a rectangle
+        """
+        string = f"[Rectangle] {self.__width}/{self.__height}"
+        return string
+
 
 class Square(Rectangle):
+    """A square - child of Rectangle
+    """
     def __init__(self, size):
-        self.__size = self.integer_validator("size", size)
+        """Initializes a new square
 
+        Args:
+            size (int): length of square
+        """
+        self.integer_validator("size", size)
+        self.__size = size
+        super().__init__(size, size)
 
+    def area(self):
+        """Returns area of square
+        """
+        return super().area()
