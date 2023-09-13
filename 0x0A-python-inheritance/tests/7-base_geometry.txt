@@ -49,9 +49,6 @@
 ...     print("[{}] {}".format(e.__class__.__name__, e))
 ... 
 >>> 
->>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
->>> 
->>> bg = BaseGeometry()
 >>> try:
 ...     bg.area()
 ... except Exception as e:
@@ -64,6 +61,3 @@
 ...     print("[{}] {}".format(e.__class__.__name__, e))
 ... 
 [TypeError] BaseGeometry.integer_validator() missing 2 required positional arguments: 'name' and 'value'
-... 
-[ValueError] distance must be greater than 0
->>> 
