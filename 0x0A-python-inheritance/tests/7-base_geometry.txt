@@ -49,3 +49,61 @@
 ...     print("[{}] {}".format(e.__class__.__name__, e))
 ... 
 >>>
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+>>> 
+>>> bg = BaseGeometry()
+>>> try:
+...     bg.area()
+... except Exception as e:
+...     print("[{}] {}".format(e.__class__.__name__, e))
+... 
+[Exception] area() is not implemented
+>>> try:                                                
+...     bg.integer_validator()                          
+... except Exception as e:                              
+...     print("[{}] {}".format(e.__class__.__name__, e))
+... 
+[TypeError] BaseGeometry.integer_validator() missing 2 required positional arguments: 'name' and 'value'
+>>> try:                                                
+...     bg.integer_validator(“age”)                     
+  File "<stdin>", line 2
+    bg.integer_validator(“age”)
+                         ^
+SyntaxError: invalid character '“' (U+201C)
+>>> try:                           
+...     bg.integer_validator(“age”, (4,))
+  File "<stdin>", line 2
+    bg.integer_validator(“age”, (4,))
+                         ^
+SyntaxError: invalid character '“' (U+201C)
+>>> try:                                 
+...     bg.integer_validator(“age”, [3]) 
+  File "<stdin>", line 2
+    bg.integer_validator(“age”, [3])
+                         ^
+SyntaxError: invalid character '“' (U+201C)
+>>> try:                                
+...     bg.integer_validator(“age”, True)                             
+  File "<stdin>", line 2
+    bg.integer_validator(“age”, True)
+                         ^
+SyntaxError: invalid character '“' (U+201C)
+>>> try:                                                     
+...     bg.integer_validator(“age”, True)                    
+  File "<stdin>", line 2
+    bg.integer_validator(“age”, True)
+                         ^
+SyntaxError: invalid character '“' (U+201C)
+>>> try:                                 
+...     bg.integer_validator(“age”, {3, 4})                              
+  File "<stdin>", line 2
+    bg.integer_validator(“age”, {3, 4})
+                         ^
+SyntaxError: invalid character '“' (U+201C)
+>>> try:                                   
+...     bg.integer_validator("distance", -4)
+... except Exception as e:                                   
+...     print("[{}] {}".format(e.__class__.__name__, e))     
+... 
+[ValueError] distance must be greater than 0
+>>> 
