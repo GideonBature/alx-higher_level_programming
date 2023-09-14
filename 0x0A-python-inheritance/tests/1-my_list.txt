@@ -12,133 +12,167 @@
 [1, 2, 3, 4, 5]
 >>> print(my_list)
 [1, 4, 2, 3, 5]
->>> my_list = MyList()    
->>> my_list.append(-6)                     
->>> my_list.append(-2)
->>> my_list.append(-21)
->>> my_list.append(-1) 
->>> my_list.append(-5)
->>> print(my_list)     
-[-6, -2, -21, -1, -5]
->>> my_list.print_sorted()
-[-21, -6, -5, -2, -1]
->>> print(my_list)        
-[-6, -2, -21, -1, -5]
->>> my_list = MyList()    
->>> my_list.append(-5)    
->>> my_list.append(-2)
->>> my_list.append(0) 
->>> my_list.append(-1)
->>> my_list.append(-7)
->>> print(my_list)    
-[-5, -2, 0, -1, -7]
->>> my_list.print_sorted()
-[-7, -5, -2, -1, 0]
->>> print(my_list)        
-[-5, -2, 0, -1, -7]
->>> my_list.append(9)     
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()
+>>> print(my_list)
+[]
+>>> my_list.append(3)
 >>> my_list.append(1)
->>> my_list.append(0)
->>> my_list.append(8)
 >>> my_list.append(4)
->>> my_list.append(3)
->>> print(my_list)        
-[-5, -2, 0, -1, -7, 9, 1, 0, 8, 4, 3]
+>>> my_list.append(2)
 >>> my_list.print_sorted()
-[-7, -5, -2, -1, 0, 0, 1, 3, 4, 8, 9]
->>> print(my_list)        
-[-5, -2, 0, -1, -7, 9, 1, 0, 8, 4, 3]
->>> my_list = MyList()    
->>> my_list.append(-8)    
->>> my_list.append(-4)
->>> my_list.append(0) 
->>> my_list.append(-3)
+[1, 2, 3, 4]
+>>> print(my_list)
+[3, 1, 4, 2]
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()
+>>> my_list.print_sorted()
+[]
+>>> print(my_list)
+[]
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()
+>>> my_list.append(3)
+>>> my_list.append(1)
+>>> my_list.append(2)
+>>> my_list.print_sorted()
+[1, 2, 3]
+>>> my_list.append(3)
 >>> my_list.append(-1)
->>> print(my_list)    
-[-8, -4, 0, -3, -1]
->>> my_list.print_sorted()
-[-8, -4, -3, -1, 0]
->>> print(my_list)        
-[-8, -4, 0, -3, -1]
->>> my_list = MyList()    
->>> my_list.append(6)     
->>> my_list.append(0)
->>> my_list.append(8)
->>> my_list.append(1)
->>> my_list.append(3)
 >>> my_list.append(2)
->>> print(my_list)    
-[6, 0, 8, 1, 3, 2]
 >>> my_list.print_sorted()
-[0, 1, 2, 3, 6, 8]
->>> print(my_list)        
-[6, 0, 8, 1, 3, 2]
->>> my_list.append('3')   
->>> my_list.append(4)  
->>> my_list.append(9)
->>> my_list.append(2)
+[-1, 1, 2, 2, 3, 3]
 >>> my_list.append(1)
->>> print(my_list)        
-[6, 0, 8, 1, 3, 2, '3', 4, 9, 2, 1]
+>>> my_list.append(4)
+>>> my_list.append(-2)
 >>> my_list.print_sorted()
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/bene/Desktop/alx-higher_level_programming/0x0A-python-inheritance/1-my_list.py", line 14, in print_sorted
-    print(sorted(self))
-          ^^^^^^^^^^^^
-TypeError: '<' not supported between instances of 'str' and 'int'
->>> my_list = MyList()    
->>> my_list.append()      
+[-2, -1, 1, 1, 2, 2, 3, 3, 4]
+>>> print(my_list)
+[3, 1, 2, 3, -1, 2, 1, 4, -2]
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()                     
+>>> my_list.append()                       
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: list.append() takes exactly one argument (0 given)
->>> my_list.append('3')
->>> my_list.append('8')
->>> my_list.append('2')
->>> my_list.append('1')
->>> my_list.append('8')
->>> print(my_list)        
-['3', '8', '2', '1', '8']
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()                     
+>>> if isinstance(my_list, MyList):
+...     True
+... else:
+...     False
+... 
+True
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()                     
+>>> if issubclass(MyList, list):
+...     True
+... else:
+...     False
+... 
+True
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()                     
+>>> if hasattr(MyList, '__str__'):
+...     True
+... else:
+...     False
+... 
+True
+>>> if hasattr(MyList, 'append'): 
+...     True
+... else:
+...     False
+... 
+True
+>>> if hasattr(MyList, 'print_sorted'):
+...     True
+... else:
+...     False
+... 
+True
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()                     
+>>> my_list.append(1)
+>>> my_list.append(2)
+>>> my_list.append(3)
+>>> my_list.append(4)
+>>> my_list.append(5)
+>>> my_list.append(10)
 >>> my_list.print_sorted()
-['1', '2', '3', '8', '8']
->>> print(my_list)        
-['3', '8', '2', '1', '8']
->>> my_list = MyList()    
->>> my_list.append('-5')  
->>> my_list.append('-8')
->>> my_list.append('-1')
->>> my_list.append('-7')
->>> my_list.append('-2')
->>> my_list = MyList()  
->>> my_list.append('-5')
->>> my_list.append('-8')
->>> my_list.append('-1')
->>> my_list.append('-7')
->>> my_list.append('-2')
->>> print(my_list)      
-['-5', '-8', '-1', '-7', '-2']
+[1, 2, 3, 4, 5, 10]
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()                     
+>>> my_list.append(3)                      
+>>> my_list.append(2)
+>>> my_list.append(9)
+>>> my_list.append(1)
+>>> my_list.append(6)
+>>> my_list.print_sorted()                 
+[1, 2, 3, 6, 9]
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()                     
+>>> my_list.append(3)                      
+>>> my_list.append(-1)
+>>> my_list.append(2) 
+>>> my_list.append(-3)
+>>> my_list.append(6) 
+>>> 
+>>> my_list.print_sorted()                 
+[-3, -1, 2, 3, 6]
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()                     
+>>> my_list.print_sorted()                 
+[]
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()                     
+>>> my_list.append(3)                      
+>>> my_list.append(1)                      
+>>> my_list.append(2)                      
 >>> my_list.print_sorted()
-['-1', '-2', '-5', '-7', '-8']
->>> print(my_list)        
-['-5', '-8', '-1', '-7', '-2']
->>> my_list = MyList()    
->>> my_list.append(' ')   
->>> print(my_list)     
-[' ']
->>> my_list.print_sorted()
-[' ']
->>> print(my_list)        
-[' ']
->>> my_list = MyList()    
->>> my_list.append('6')   
->>> my_list.append(' ')
->>> my_list.append('-9')
->>> my_list.append('-2')
->>> my_list.append('4') 
->>> print(my_list)      
-['6', ' ', '-9', '-2', '4']
->>> my_list.print_sorted()
-[' ', '-2', '-9', '4', '6']
->>> print(my_list)        
-['6', ' ', '-9', '-2', '4']
+[1, 2, 3]
+>>> my_list
+[3, 1, 2]
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()                     
+>>> if isinstance(my_list, MyList):
+...     True
+... else:
+...     False
+... 
+True
+>>> if type(my_list) == MyList:
+...     True
+... else:
+...     False
+... 
+True
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()                     
+>>> print(my_list)
+[]
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()                     
+>>> my_list.append(3)                      
+>>> my_list.append(4) 
+>>> my_list.append(2)
+>>> my_list.append(1)
+>>> my_list.append(9)
+>>> print(my_list)
+[3, 4, 2, 1, 9]
+>>> print(my_list.print_sorted())
+[1, 2, 3, 4, 9]
+None
+>>> my_list.print_sorted()       
+[1, 2, 3, 4, 9]
+>>> MyList = __import__('1-my_list').MyList
+>>> my_list = MyList()                     
+>>> my_list.append(24)                     
+>>> print(my_list)
+[24]
+>>> print(my_list.print_sorted())
+[24]
+None
+>>> my_list.print_sorted()       
+[24]
 >>> 
