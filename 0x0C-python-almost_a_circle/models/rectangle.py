@@ -84,3 +84,16 @@ class Rectangle(Base):
         str3 = f"{self.__x}/{self.__y}"
         str4 = f"{self.__width}/{self.__height}"
         return str1 + " " + str2 + " " + str3 + " - " + str4
+
+    def update(self, *args):
+        n_args = len(args)
+        if n_args >= 1:
+            self.id = args[0]
+        if n_args >= 2:
+            self.__width = args[1]
+        if n_args >= 3:
+            self.__height = args[2]
+        if n_args >= 4:
+            self.__x = args[3]
+        if n_args >= 5:
+            self.__y = args[4]
