@@ -70,3 +70,10 @@ class Rectangle(Base):
             for j in range(self.__width):
                 print("#", end="")
             print()
+
+    def __str__(self):
+        str1 = "[Rectangle]"
+        str2 = f"({self.id})"
+        str3 = f"{self.__x}/{self.__y}"
+        str4 = f"{self.__width}/{self.__height}"
+        return str1 + " " + str2 + " " + str3 + " - " + str4
