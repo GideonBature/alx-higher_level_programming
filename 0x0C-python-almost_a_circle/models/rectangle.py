@@ -66,9 +66,16 @@ class Rectangle(Base):
         return self.__height * self.__width
 
     def display(self):
+        space = " "
+        newline = "\n"
+        if self.__y == 0:
+            pass
+        else:
+            print(newline * (self.__y - 1))
         for i in range(self.__height):
+            print(space * self.__x, end="")
             for j in range(self.__width):
-                print("#", end="")
+                print('#', end='')
             print()
 
     def __str__(self):
