@@ -47,3 +47,16 @@ class Base:
         rectangle = cls(9, 4, 1, 4)
         rectangle.update(**dictionary)
         return rectangle
+
+    @classmethod
+    def load_from_file(cls):
+        file_name = f"{cls.__name__}.json"
+
+        try:
+            with open(file_name, 'r', encoding='utf-8') as json_file:
+                json_string = json_file.read()
+                dict_list = cls.from_json_string(json_string)
+                instances = [cls.create(**d) for d in dict_list]
+                return instances
+        except FileNotFoundError:
+            return "[]"
