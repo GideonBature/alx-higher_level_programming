@@ -41,3 +41,9 @@ class Base:
         if json_string is None or not json_string:
             return '[]'
         return json.loads(json_string)
+
+    @classmethod
+    def create(cls, **dictionary):
+        rectangle = cls(9, 4, 1, 4)
+        rectangle.update(**dictionary)
+        return rectangle
