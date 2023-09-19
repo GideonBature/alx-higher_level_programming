@@ -23,6 +23,7 @@ class Rectangle(Base):
             ValueError: If either of x or y < 0.
         """
         Base.__init__(self, id)
+        self.id = id
         self.__width = width
         self.__height = height
         self.__x = x
