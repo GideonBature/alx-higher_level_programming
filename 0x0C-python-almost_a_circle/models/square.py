@@ -15,13 +15,16 @@ class Square(Rectangle):
             x (int): The x coordinate of the new Square.
             y (int): The y coordinate of the new Square.
             id (int): The identity of the new Square.
+        Raises:
+            TypeError: If size is not an int.
+            ValueError: if size <= 0.
         """
         super().__init__(size, size, x, y, id)
 
     @property
-    """Get/set the size of the Square.
-    """
     def size(self):
+        """Get/set the size of the Square.
+        """
         return self.width
 
     @size.setter
