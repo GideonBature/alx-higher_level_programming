@@ -63,9 +63,11 @@ class Square(Rectangle):
         if n_args >= 2:
             self.__size = args[1]
         if n_args >= 3:
-            self.__x = args[2]
+            self.__size = args[2]
         if n_args >= 4:
-            self.__y = args[3]
+            self.__x = args[3]
+        if n_args >= 5:
+            self.__y = args[4]
 
         for k, v in kwargs.items():
             if k == 'id':
