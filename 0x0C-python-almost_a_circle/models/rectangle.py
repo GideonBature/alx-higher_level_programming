@@ -23,6 +23,24 @@ class Rectangle(Base):
             ValueError: If either of x or y < 0.
         """
         Base.__init__(self, id)
+
+        if type(value) != int:
+            raise TypeError("width must be an integer")
+        if value <= 0:
+            raise ValueError("width must be > 0")
+        if type(value) != int:
+            raise TypeError("height must be an integer")
+        if value <= 0:
+            raise ValueError("height must be > 0")
+        if type(value) != int:
+            raise TypeError("x must be an integer")
+        if value < 0:
+            raise ValueError("x must be >= 0")
+        if type(value) != int:
+            raise TypeError("y must be an integer")
+        if value < 0:
+            raise ValueError("x must be >= 0")
+
         self.id = id
         self.__width = width
         self.__height = height
