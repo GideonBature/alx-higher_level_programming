@@ -1,8 +1,11 @@
 #!/usr/bin/python3
 """Tests cases for Rectangle class
 """
+import io
+import sys
 import unittest
-from rectangle import Rectangle  # Assuming you have a file named rectangle.py
+from models.base import Base
+from models.rectangle import Rectangle
 
 
 class TestRectangle(unittest.TestCase):

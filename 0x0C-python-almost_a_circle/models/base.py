@@ -2,6 +2,7 @@
 """Base Class
 """
 import json
+import csv
 
 
 class Base:
@@ -60,3 +61,49 @@ class Base:
                 return instances
         except FileNotFoundError:
             return "[]"
+
+
+    @classmethod
+    def save_to_file_csv(cls, list_objs):
+        if list_objs is None:
+            list_objs = "[]"
+
+        dict_objs = [obj.to_dictionary() for obj in list_objs]
+
+        file_name = f"{cls.__name__}.csv"
+
+        with open(file_name, 'w') as csv_file:
+            writer = csv.writer(csv_file)
+
+            if cls.__name__ == 'Rectangle':
+                writer.writerow(['id', 'width', 'height', 'x', 'y'])
+
+                writer.writerow(dict_objs)
+
+            elif cls.__name__ == 'Square':
+                writer.writerow(['id', 'size', 'x', 'y'])
+
+                writer.writerow(dict_objs)
+
+    @classmethod
+    def load_from_file_csv(cls):
+        file_name = f"{cls.__name__}.csv"
+        instances = []
+
+        try:
+            with open(file_name, 'r') as csv_file:
+                reader = csv.reader(csv_file)
+
+                next(reader, None)
+
+                for row in reader:
+                    if cls.__name__ == 'Rectangle':
+                        id, width, height, x, y = map(int, row)
+                        instances.append(cls(id, width, height, x, y))
+                    elif cls.__name__ == 'Square':
+                        id, size, x, y = map(int, row)
+                        instances.append(cls(id, size, x, y))
+        except FileNotFoundError:
+            return []
+
+        return instances
