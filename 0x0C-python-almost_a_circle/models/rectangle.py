@@ -39,7 +39,7 @@ class Rectangle(Base):
         if type(y) != int:
             raise TypeError("y must be an integer")
         if y < 0:
-            raise ValueError("x must be >= 0")
+            raise ValueError("y must be >= 0")
 
         self.id = id
         self.__width = width
@@ -100,7 +100,7 @@ class Rectangle(Base):
         if type(value) != int:
             raise TypeError("y must be an integer")
         if value < 0:
-            raise ValueError("x must be >= 0")
+            raise ValueError("y must be >= 0")
         self.__y = value
 
     def area(self):
