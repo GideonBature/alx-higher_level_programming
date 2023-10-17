@@ -5,8 +5,8 @@
 
 _For this project, we expect you to look at these concepts:_
 
-*   [Databases](/concepts/37)
-*   [Databases](/concepts/556)
+*   [Databases](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x0D-SQL_introduction/concept_pages)
+*   [Databases](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x0D-SQL_introduction/concept_pages)
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/rtcwz.jpg)
 
