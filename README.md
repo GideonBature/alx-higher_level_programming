@@ -26,6 +26,6 @@
 
 ### 0x0B. [Python - Input/Output](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x0B-python-input_output)
 
-### 0x0B. [Python - Almost a circle](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle)
+### 0x0C. [Python - Almost a circle](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle)
 
 ### 0x0D. [SQL - Introduction](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x0D-SQL_introduction)
