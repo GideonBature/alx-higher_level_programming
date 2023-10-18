@@ -29,3 +29,5 @@
 ### 0x0C. [Python - Almost a circle](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle)
 
 ### 0x0D. [SQL - Introduction](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x0D-SQL_introduction)
+
+### 0x0E. [SQL - More queries](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x0E-SQL_more_queries)
