@@ -1,7 +1,8 @@
 0x0E. SQL - More queries
 ========================
 
-![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/66988091.jpg)
+![](https://github.com/GideonBature/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/images/sql00.jpg)
+
 
 Resources
 ---------
@@ -151,7 +152,7 @@ Connect to your MySQL server:
     $
     
 
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/3/bc2575fee3303b731031.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20231018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231018T063652Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2c32428e59954f1a9f19c65b79fc60eeb7b92ade2b57641b5c53a3c1f6954dc3)
+![](https://github.com/GideonBature/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/images/sql01.png)
 
 ### Quiz questions
 
