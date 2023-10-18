@@ -1,7 +1,7 @@
 0x0E. SQL - More queries
 ========================
 
-![](https://github.com/GideonBature/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/images/sql00.jpg)
+![](/images/sql00.jpg)
 
 
 Resources
@@ -152,7 +152,7 @@ Connect to your MySQL server:
     $
     
 
-![](https://github.com/GideonBature/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/images/sql01.png)
+![](/images/sql01.png)
 
 ### Quiz questions
 
