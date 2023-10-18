@@ -158,9 +158,9 @@ Connect to your MySQL server:
 **Great!** You've completed the quiz successfully! Keep going!
 
 #### Question #0
-```
-What DCL means?
 
+What DCL means?
+```
 *   Document Control Line
     
 *   Document Control Language
@@ -171,27 +171,27 @@ What DCL means?
 ```    
 
 #### Question #1
-```
-Is it possible to give only delete access to a table to a user?
 
+Is it possible to give only delete access to a table to a user?
+```
 *   Yes
     
 *   No
 ```    
 
 #### Question #2
-```
-Is it possible to give only read access to a table to a user?
 
+Is it possible to give only read access to a table to a user?
+```
 *   Yes
     
 *   No
 ```    
 
 #### Question #3
-```
-Is it possible to give only insert access to a table to a user?
 
+Is it possible to give only insert access to a table to a user?
+```
 *   Yes
     
 *   No
@@ -207,9 +207,9 @@ Is it possible to give only read access to multiple databases and tables to a us
 ```    
 
 #### Question #5
-```
-Which JOIN type doesn’t exist? (please select all correct answers)
 
+Which JOIN type doesn’t exist? (please select all correct answers)
+```
 *   LEFT
     
 *   FULL INNER
@@ -226,9 +226,9 @@ Which JOIN type doesn’t exist? (please select all correct answers)
 ```    
 
 #### Question #6
-```
-Is it possible to give only read access to a database to a user?
 
+Is it possible to give only read access to a database to a user?
+```
 *   Yes
     
 *   No
