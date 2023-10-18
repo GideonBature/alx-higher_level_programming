@@ -2,6 +2,9 @@
 ========================
 
 ![](/images/sql00.jpg)
+<p>
+    <img src="images/sql00.png" width="220" height="240" />
+</p>
 
 
 Resources
