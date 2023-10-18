@@ -3,4 +3,4 @@
 -- Replace 'hbtn_0c_0' and 'first_table' with your database and table names
 USE hbtn_0c_0;
 
-SHOW CREATE TABLE;
+SHOW CREATE TABLE `first_table`;
