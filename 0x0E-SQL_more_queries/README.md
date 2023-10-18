@@ -116,7 +116,7 @@ Connect to your MySQL server:
 *   Connect via SSH
 *   OR connect via the Web terminal
 *   In the container, you should start MySQL before playing with it:
-
+```
     $ service mysql start                                                   
      * Starting MySQL database server mysqld 
     $
@@ -127,7 +127,7 @@ Connect to your MySQL server:
     performance_schema                                                                         
     sys                      
     $
-    
+```    
 
 **In the container, credentials are `root/root`**
 
@@ -158,7 +158,7 @@ Connect to your MySQL server:
 **Great!** You've completed the quiz successfully! Keep going!
 
 #### Question #0
-
+```
 What DCL means?
 
 *   Document Control Line
@@ -168,46 +168,46 @@ What DCL means?
 *   Data Concept Language
     
 *   Data Control Language
-    
+```    
 
 #### Question #1
-
+```
 Is it possible to give only delete access to a table to a user?
 
 *   Yes
     
 *   No
-    
+```    
 
 #### Question #2
-
+```
 Is it possible to give only read access to a table to a user?
 
 *   Yes
     
 *   No
-    
+```    
 
 #### Question #3
-
+```
 Is it possible to give only insert access to a table to a user?
 
 *   Yes
     
 *   No
-    
+```    
 
 #### Question #4
 
 Is it possible to give only read access to multiple databases and tables to a user?
-
+```
 *   Yes
     
 *   No
-    
+```    
 
 #### Question #5
-
+```
 Which JOIN type doesn’t exist? (please select all correct answers)
 
 *   LEFT
@@ -223,16 +223,16 @@ Which JOIN type doesn’t exist? (please select all correct answers)
 *   RIGHT AND LEFT
     
 *   IN LEFT
-    
+```    
 
 #### Question #6
-
+```
 Is it possible to give only read access to a database to a user?
 
 *   Yes
     
 *   No
-    
+```    
 
 -----
 Tasks
