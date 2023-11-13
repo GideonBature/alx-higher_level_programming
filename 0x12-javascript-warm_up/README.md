@@ -622,7 +622,7 @@ Write a file that modifies the value of `myVar` to `333`
     guillaume@ubuntu:~/0x12$ 
 ```    
 
-![](./Project_ 0x12. JavaScript - Warm up _ Lagos Intranet_files/4ae30fb44f708dbb3abc211b784db614e615ca21.gif)
+![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/4ae30fb44f708dbb3abc211b784db614e615ca21.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20231113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231113T092341Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=e6d79148f3a73ae024ae81b4b5797d4fb4609540493938b6e3284b4b31e0b5e7)
 
 Do you get it? Tweet! Post! Talk about it!
 
