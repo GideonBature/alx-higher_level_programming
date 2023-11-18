@@ -12,7 +12,7 @@ if __name__ == "__main__":
     p = 3306
     db = MySQLdb.connect(host=lh, port=p, user=usr, passwd=pwd, db=datab)
     cursor = db.cursor()
-    cursor.execute("SELECT * FROM states WHERE name LIKE 'N%'")
+    cursor.execute("SELECT * FROM states WHERE BINARY name LIKE 'N%'")
     states = cursor.fetchall()
 
     for state in states:
