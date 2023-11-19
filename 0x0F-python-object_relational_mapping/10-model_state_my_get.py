@@ -20,13 +20,9 @@ if __name__ == '__main__':
 
     session = Session()
 
-    states = session.query(State).all()
+    state = session.query(State).filter(State.name == sname).first()
 
-    exists = False
-    for state in states:
-        if state.name == sname:
-            exists = True
-            print("{}".format(state.id))
-
-    if exists is False:
-        print("Not Found")
+    if state:
+        print("{}".format(state.id))
+    else:
+        print("Not found")
