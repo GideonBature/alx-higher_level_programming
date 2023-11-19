@@ -22,13 +22,6 @@ if __name__ == '__main__':
 
     states = session.query(State).all()
 
-    count = 0
-
     for state in states:
         if state.name == sname:
-            count += 1
-
-    if count == 0:
-        print("Not found")
-    else:
-        print(count)
+            print("{}".format(state.id))
