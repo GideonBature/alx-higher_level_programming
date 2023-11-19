@@ -22,6 +22,11 @@ if __name__ == '__main__':
 
     states = session.query(State).all()
 
+    exists = False
     for state in states:
         if state.name == sname:
+            exists = True
             print("{}".format(state.id))
+
+    if exists is False:
+        print("Not Found")
