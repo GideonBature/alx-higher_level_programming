@@ -1,71 +1,74 @@
 #!/usr/bin/python3
-"""Defines a class square"""
+"""square class
+"""
 
 
-class Square:
-
-    """class defines square object"""
-
+class Square():
+    """square class
+    """
     def __init__(self, size=0, position=(0, 0)):
-
-        """__init__ method
-
-        Args:
-            size: size of square
+        """constructor
+        size(private): size of square
         """
-        self.size = size
-        self.position = position
+        if type(size) is not int:
+            raise TypeError("size must be an integer")
+
+        if size < 0:
+            raise ValueError("size must be >= 0")
+
+        self.__size = size
+        self.__position = position
 
     @property
     def size(self):
-        """Getter Function for size"""
         return self.__size
 
     @size.setter
-    def size(self, value):
-        if not isinstance(value, int):
+    def size(self, size):
+        if type(size) is not int:
             raise TypeError("size must be an integer")
-        if value < 0:
+        elif size < 0:
             raise ValueError("size must be >= 0")
-        self.__size = value
+        else:
+            self.__size = size
 
     @property
     def position(self):
-        """Getter Function for position"""
         return self.__position
 
     @position.setter
     def position(self, value):
-        if not isinstance(value, tuple) and len(value) == 2:
+        if len(value) != 2 or type(value[0]) is not int or type(value[1]) \
+                is not int:
             raise TypeError("position must be a tuple of 2 positive integers")
-        if not all(isinstance(v, int) and v >= 0 for v in value):
+        elif value[0] < 0 or value[1] < 0:
             raise TypeError("position must be a tuple of 2 positive integers")
-        self.__position = value
+        else:
+            self.__position = value
 
     def area(self):
-        """public instance method that returns area"""
-
-        product = (self.__size) * (self.__size)
-        return product
+        return self.__size * self.__size
 
     def my_print(self):
-        """prints the square with position"""
+        for idx in range(self.__position[1]):
+            print()
         if self.__size == 0:
             print()
         else:
-            for _ in range(self.__position[1]):
-                print()
-            for _ in range(self.__size):
-                print(" " * self.__position[0] + "#" * self.__size)
+            for i in range(self.size):
+                spaces = self.__position[0] * ' '
+                hashes = self.__size * '#'
+                print(f"{spaces}{hashes}")
 
     def __str__(self):
-        """__str__ method printing same thing as my_print"""
-        result = ""
+        result = ''
+        for idx in range(self.__position[1]):
+            result += '\n'
         if self.__size == 0:
-            return ""
-
-        for _ in range(self.__position[1]):
-            result = "\n"
-        for _ in range(self.__size):
-            result += "\n" + (" " * self.__position[0] + "#" * self.__size)
-        return str(result)
+            result += '\n'
+        else:
+            for i in range(self.size):
+                spaces = self.__position[0] * ' '
+                hashes = self.__size * '#'
+                result += f"{spaces}{hashes}\n"
+        return result.rstrip()
