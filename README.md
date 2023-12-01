@@ -39,3 +39,5 @@
 ### 0x0F. [Python - Object-relational mapping](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x0F-python-object_relational_mapping)
 
 ### 0x10. [Python - Network #0](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x10-python-network_0)
+
+### 0x11. [Python - Network #1](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x11-python-network_1)
