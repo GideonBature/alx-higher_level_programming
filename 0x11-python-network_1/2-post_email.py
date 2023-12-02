@@ -7,19 +7,20 @@ from urllib.request import urlopen, Request
 from urllib.parse import urlencode
 import sys
 
-url = sys.argv[1]
-email = sys.argv[2]
+if __name__ == '__main__':
+    url = sys.argv[1]
+    email = sys.argv[2]
 
-data = {"email": email}
+    data = {"email": email}
 
-encoded_data = urlencode(data).encode('ascii')
+    encoded_data = urlencode(data).encode('ascii')
 
-request = Request(url, data=encoded_data, method='POST')
+    request = Request(url, data=encoded_data, method='POST')
 
-request.add_header('Content-Type', 'application/x-www-form-urlencoded')
+    request.add_header('Content-Type', 'application/x-www-form-urlencoded')
 
-with urlopen(request) as response:
-    response_data = response.read()
-    decode_response_data = response_data.decode('utf-8')
+    with urlopen(request) as response:
+        response_data = response.read()
+        decode_response_data = response_data.decode('utf-8')
 
-    print(f"{decode_response_data}")
+        print(f"{decode_response_data}")
