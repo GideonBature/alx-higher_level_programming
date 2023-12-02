@@ -15,12 +15,10 @@ if __name__ == '__main__':
 
     encoded_data = urlencode(data).encode('ascii')
 
-    request = Request(url, data=encoded_data, method='POST')
-
-    request.add_header('Content-Type', 'application/x-www-form-urlencoded')
+    request = Request(url, data=encoded_data)
 
     with urlopen(request) as response:
         response_data = response.read()
         decode_response_data = response_data.decode('utf-8')
 
-        print(f"{decode_response_data}")
+        print(decode_response_data)
