@@ -3,8 +3,8 @@
 sends a POST request to the passed URL with the email as a parameter,
 and displays the body of the response (decoded in utf-8)
 """
-from urllib.request import urlopen, Request
-from urllib.parse import urlencode
+import urllib.request
+import urllib.parse
 import sys
 
 if __name__ == '__main__':
@@ -13,12 +13,13 @@ if __name__ == '__main__':
 
     value = {"email": email}
 
-    data = urlencode(value).encode('ascii')
+    data = urllib.parse.urlencode(value)
+    data = data.encode('ascii')
 
-    request = Request(url, data)
+    request = urllib.request.Request(url, data)
 
-    with urlopen(request) as response:
-        response_data = response.read()
-        decode_response_data = response_data.decode('utf-8')
+    with urllib.request.urlopen(request) as response:
+        body = response.read()
+        decode_body = body.decode('utf-8')
 
-        print(decode_response_data)
+        print(decode_body)
