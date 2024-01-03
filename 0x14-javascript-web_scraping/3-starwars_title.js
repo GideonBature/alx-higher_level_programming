@@ -5,12 +5,13 @@ const process = require('process');
 const request = require('request');
 
 const id = process.argv[2];
-const path = 'https://swapi-api.alx-tools.com/api/films/' + id;
+const url = 'https://swapi-api.alx-tools.com/api/films/' + id;
 
-request(path, (error, response, body) => {
+request(url, (error, response, body) => {
   if (error) {
     console.error(error);
   } else {
-    console.log(body.title);
+    const bodyObj = JSON.parse(body);
+    console.log(bodyObj.title);
   }
 });
