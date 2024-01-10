@@ -5,8 +5,8 @@
 
 _For this project, we expect you to look at these concepts:_
 
-*   [JavaScript in the browser](/concepts/3)
-*   [Dealing with data statically versus dynamically](/concepts/35)
+*   [JavaScript in the browser](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x15-javascript-web_jquery/concept_pages/javascript_in_the_browser)
+*   [Dealing with data statically versus dynamically](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x15-javascript-web_jquery/concept_pages/dealing_with_data-statically_vs_dynamically)
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/305/4724718.jpg)
 
