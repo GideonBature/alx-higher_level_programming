@@ -43,3 +43,5 @@
 ### 0x11. [Python - Network #1](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x11-python-network_1)
 
 ### 0x14. [JavaScript - Web scraping](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x14-javascript-web_scraping)
+
+### 0x15. [JavaScript - Web jQuery](https://github.com/GideonBature/alx-higher_level_programming/tree/main/0x15-javascript-web_jquery)
